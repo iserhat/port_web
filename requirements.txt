@@ -10,4 +10,3 @@ SQLAlchemy==2.0.25
 selenium==4.19.0
 bs4==0.0.1
 gunicorn==21.2.0
-pyscopg2-binary==2.9.8
