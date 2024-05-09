@@ -1,4 +1,6 @@
-
+.jumbotron {
+    background-color: black;
+}
 
 .navbar-toggler {
     background-color: #21c43a; 
