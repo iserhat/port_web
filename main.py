@@ -13,5 +13,9 @@ Bootstrap5(app=app)
 def home():
     return render_template("index.html")
 
+@app.route("/certificates")
+def getCertificates():
+    return render_template("certificates.html")
+
 if __name__ == '__main__':
     app.run(debug=True)

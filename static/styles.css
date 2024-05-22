@@ -2,6 +2,14 @@
     background-color: black;
 }
 
+.carousel-control-prev-icon {
+    background-color: gray;
+}
+
+.carousel-control-next-icon {
+    background-color: gray;
+}
+
 .navbar-toggler {
     background-color: #21c43a; 
 }
