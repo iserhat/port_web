@@ -2,7 +2,7 @@
     <header class="p-3 mb-4 border-bottom" id="third-bg">
       <div class="container-fluid" >
         <nav class="navbar navbar-expand-lg navbar-py-3">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{url_for('home')}}">
               <img src="/static/images/logoy.png" width="150" height="150" class="d-inline-block" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" id='text_me' aria-current="page" href="{{url_for('home')}}">Home</a>
+                  <a class="nav-link" id='text_me' aria-current="page" href="{{url_for('home')}}">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id='text_me' href="{{url_for('getCertificates')}}">Certificates</a>
