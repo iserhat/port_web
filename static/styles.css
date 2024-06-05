@@ -1,3 +1,12 @@
+#carouselDash {
+    margin-bottom: 0;
+    visibility: hidden;
+}
+
+#blackDash {
+    background-color: black;
+}
+
 .jumbotron {
     background-color: black;
 }
