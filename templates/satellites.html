@@ -1,0 +1,55 @@
+<section>
+    <div class="p-4 p-md-5 mb-4 " id='blackDash' >
+      <div class="row align-items-center">
+        <div class="col-lg-6 px-0" id='blackDash'>
+          <div class=" text-center overflow-hidden" >
+            <div class="my-3 py-3" style="color: orange;">
+              <h2 class="display-5"> SATELLITES CURRENTLY ORBITING THE EARTH </h2>
+            </div>
+            <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+              <br/>
+              <p class="lead"  style="color:black;">
+                <ul >
+                  <li>How many satellites does a given country have in orbit, and what are they used for?</li>
+                  <br/>
+                  <li> How many satellites are used for military purposes versus commercial purposes? </li>
+                  <br/>
+                  <li> Which countries have earth-observing satellites? </li>
+                <ul/> 
+                <br/><span style="font-weight:bold; padding-right:30px">These questions and more could be researched through this project.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 px-0" id='blackDash'>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators" id='carouselDash'>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class='img-fluid' src="{{url_for('static', filename='images/orbit1.png')}}" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid" src="{{url_for('static', filename='images/orbit2.png')}}" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid"  src="{{url_for('static', filename='images/orbit3.png')}}" alt="First slide">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>             
+
+        </div>
+      </div>
+    </div>
+  </section>
